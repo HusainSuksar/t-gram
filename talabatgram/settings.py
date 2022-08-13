@@ -153,8 +153,8 @@ AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
 SECRET_KEY = '&1(pou)w2^0bkq*a6_9&g8qe#pn!ws(2&wb)#0h2lseoml*x^c'
-DEBUG = os.environ.get("DEBUG_VALUE", True)
-#DEBUG = False
+#DEBUG = os.environ.get("DEBUG_VALUE", True)
+DEBUG = False
 # for s3
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
