@@ -11,7 +11,7 @@ cd projects
 ```
 2. Download a copy
 ```
-git clone https://github.com/cdelange/talabatgram.git
+git clone https://github.com/HusainSuksar/talabatgram.git
 ```
 3. Install a virtual environment
 ```
