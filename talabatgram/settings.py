@@ -165,3 +165,4 @@ AWS_S3_REGION_NAME = 'us-east-2'
 
 # auto sets configs for postgres db on heroku
 django_heroku.settings(locals())
+COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
